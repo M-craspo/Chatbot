@@ -4,11 +4,16 @@ This repository contains an AI-powered chatbot that automates the analysis of he
 ## Features
 
 Natural Language Processing: Ask questions in plain language, and the chatbot will automatically generate and execute Python code to answer.
+
 Data Analysis: The chatbot can analyze health insurance data, providing insights such as service usage, policy information, and more.
+
 Real-time Execution: The generated Python code is executed in real-time, returning immediate results or error messages for troubleshooting.
+
 Gradio Web Interface: Easy-to-use, web-based interface powered by Gradio, making it accessible for non-technical users.
+
 Error Handling: Built-in error handling for syntax and runtime issues.
-Project Structure
+
+### Project Structure
 chatbot.py: Core logic for generating and executing Python code from user queries.
 data_description.txt: Description of the dataset fields used by the chatbot for code generation.
 dtat.xlsx: Example dataset used for testing the chatbot's functionality.
